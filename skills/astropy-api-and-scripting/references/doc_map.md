@@ -1,0 +1,80 @@
+# astropy documentation map: API and Scripting
+
+Generated from documentation roots:
+- `docs`
+- `docs/nddata/examples`
+- `docs/wcs/examples`
+- `astropy/tests`
+- `docs/changes/tests`
+
+Total docs grouped in this topic: 68
+
+## File inventory
+- `docs/utils/masked/index.rst` | title: Masked Values and Quantities (`astropy.utils.masked`) | headings: Masked Values and Quantities (`astropy.utils.masked`); Usage; Differences from `~numpy.ma.MaskedArray`
+- `docs/samp/index.rst` | title: SAMP (Simple Application Messaging Protocol) (`astropy.samp`) | headings: SAMP (Simple Application Messaging Protocol) (`astropy.samp`); Using `astropy.samp`; Reference/API
+- `docs/index.rst` | title: astropy: A Community Python Library for Astronomy | headings: astropy: A Community Python Library for Astronomy
+- `docs/nddata/mixins/index.rst` | title: Mixins for Added Functionality | headings: Mixins for Added Functionality
+- `docs/io/fits/api/index.rst` | title: Reference/API | headings: Reference/API
+- `docs/known_issues.rst` | title: Known Issues | headings: Known Issues; Known Deficiencies; Quantities Lose Their Units with Some Operations
+- `docs/coordinates/spectralcoord.rst` | title: Using the SpectralCoord Class | headings: Using the SpectralCoord Class; Creating SpectralCoord Objects; Unit conversion
+- `docs/units/quantity.rst` | title: Quantity | headings: Quantity; Creating Quantity Instances; Examples
+- `docs/nddata/subclassing.rst` | title: Subclassing | headings: Subclassing; `~astropy.nddata.NDData`; Adding Another Property
+- `docs/io/unified_table_fits.rst` | title: FITS | headings: FITS; Reading; Writing
+- `docs/development/style-guide.rst` | title: with overline, for parts | headings: with overline, for parts; Astropy Narrative Style Guide; Abbreviations
+- `docs/cosmology/dev.rst` | title: Cosmology For Developers | headings: Cosmology For Developers; Cosmologies in Functions; Custom Cosmologies
+- `docs/coordinates/skycoord.rst` | title: Using the SkyCoord High-Level Class | headings: Using the SkyCoord High-Level Class; Creating SkyCoord Objects; Examples
+- `docs/units/logarithmic_units.rst` | title: Magnitudes and Other Logarithmic Units | headings: Magnitudes and Other Logarithmic Units; Creating Logarithmic Quantities; Example
+- `docs/cosmology/units.rst` | title: Cosmological Units and Equivalencies | headings: Cosmological Units and Equivalencies; About the Units; Cosmological Redshift and Dimensionless Equivalency
+- `docs/coordinates/matchsep.rst` | title: Separations, Offsets, Catalog Matching, and Related Functionality | headings: Separations, Offsets, Catalog Matching, and Related Functionality; Separations; Offsets
+- `docs/io/fits/appendix/history.rst` | title: astropy.io.fits History | headings: astropy.io.fits History; 3.4.0 (2016-01-29); 3.3.0 (2014-07-17)
+- `docs/io/fits/api/tables.rst` | title: Tables | headings: Tables; :class:`BinTableHDU`; :class:`TableHDU`
+- `docs/io/fits/api/files.rst` | title: File Handling and Convenience Functions | headings: File Handling and Convenience Functions; :func:`open`; :func:`writeto`
+- `docs/coordinates/stokescoord.rst` | title: Using the ``StokesCoord`` Class | headings: Using the ``StokesCoord`` Class; Comparing to Symbols and Numbers; Mapping Symbols to Numeric Values
+- `docs/io/fits/api/diff.rst` | title: Differs | headings: Differs; :class:`FITSDiff`; :class:`HDUDiff`
+- `docs/utils/ref_api.rst` | title: Reference/API | headings: Reference/API; Utility Functions/Classes; File Downloads
+- `docs/units/conversion.rst` | title: Low-Level Unit Conversion | headings: Low-Level Unit Conversion; Direct Conversion; Obtaining a Conversion Function
+- `docs/stats/ripley.rst` | title: Ripley's K Function Estimators | headings: Ripley's K Function Estimators; Basic Usage; Example
+- `docs/io/fits/appendix/header_transition.rst` | title: Header Interface Transition Guide | headings: Header Interface Transition Guide; Background; Deprecation Warnings
+- `docs/io/fits/api/verification.rst` | title: Verification Options | headings: Verification Options; ``'exception'``; ``'ignore'``
+- `docs/io/fits/api/hdus.rst` | title: Header Data Unit | headings: Header Data Unit; :class:`PrimaryHDU`; :class:`GroupsHDU`
+- `docs/wcs/legacy_interface.rst` | title: Legacy Interface | headings: Legacy Interface; astropy.wcs API; Core wcslib API
+- `docs/table/ref_api.rst` | title: Reference/API | headings: Reference/API; Capabilities; Notebook Backends
+- `docs/cosmology/io/details.rst` | title: Cosmology I/O Details | headings: Cosmology I/O Details; Cosmology in a Pickle; Renaming Fields
+- `docs/warnings.rst` | title: Python warnings system | headings: Python warnings system
+- `docs/io/typing.rst` | title: I/O Typing (`astropy.io.typing`) | headings: I/O Typing (`astropy.io.typing`); Reference/API
+- `docs/io/misc.rst` | title: ECVS, HDF5, Parquet, PyArrow CSV, YAML (`astropy.io.misc`) | headings: ECVS, HDF5, Parquet, PyArrow CSV, YAML (`astropy.io.misc`); Reference/API
+- `docs/cosmology/traits.rst` | title: Cosmology Traits | headings: Cosmology Traits; Reference/API
+- `docs/wcs/reference_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/visualization/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/units/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/timeseries/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/time/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/stats/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/samp/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/nddata/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/nddata/decorator.rst` | title: Decorating Functions to Accept NDData Objects | headings: Decorating Functions to Accept NDData Objects
+- `docs/io/registry_ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/io/misc_ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/cosmology/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/coordinates/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/coordinates/example_gallery_plot_sgr_coordinate_frame.rst` | title: Create a new coordinate class (for the Sagittarius stream) | headings: Create a new coordinate class (for the Sagittarius stream)
+- `docs/coordinates/example_gallery_plot_mars_coordinate_frame.rst` | title: Create a new coordinate frame class for Mars | headings: Create a new coordinate frame class for Mars
+- `docs/convolution/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/config/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/io/votable/api_exceptions.rst` | title: `astropy.io.votable.exceptions` | headings: `astropy.io.votable.exceptions`; Exception Utilities
+- `docs/development/maintainers/astropy-package-template.rst` | title: How to create and maintain a Python package using the Astropy template | headings: How to create and maintain a Python package using the Astropy template; Releasing a Python package
+- `docs/io/votable/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/io/ascii/ref_api.rst` | title: Reference/API | headings: Reference/API
+- `docs/io/ascii/extension_classes.rst` | title: Extension Reader Classes | headings: Extension Reader Classes
+- `docs/io/ascii/base_classes.rst` | title: Base Class Elements | headings: Base Class Elements
+- `docs/io/fits/api/headers.rst` | title: Headers | headings: Headers; :class:`Header`
+- `docs/io/fits/api/hdulists.rst` | title: HDU Lists | headings: HDU Lists; :class:`HDUList`
+- `docs/io/fits/api/cards.rst` | title: Cards | headings: Cards; :class:`Card`
+- `docs/changes/visualization/18994.api.rst` | title: 18994 Api | headings: (no heading extracted)
+- `docs/changes/tests/17883.api.rst` | title: 17883 Api | headings: (no heading extracted)
+- `docs/changes/table/19198.api.rst` | title: 19198 Api | headings: (no heading extracted)
+- `docs/changes/cosmology/18874.api.rst` | title: 18874 Api | headings: (no heading extracted)
+- `docs/changes/cosmology/18800.api.rst` | title: 18800 Api | headings: (no heading extracted)
+- `docs/changes/coordinates/18362.api.rst` | title: 18362 Api | headings: (no heading extracted)
+- `docs/changes/constants/18407.api.rst` | title: 18407 Api | headings: (no heading extracted)
+- `docs/io/fits/api/tiled_compression.rst` | title: Tiled Compression | headings: Tiled Compression

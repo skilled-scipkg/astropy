@@ -1,0 +1,100 @@
+{
+  "compiled_package_id": "astropy",
+  "evidence": {
+    "core_skills": [
+      "astropy-api-and-scripting",
+      "astropy-getting-started",
+      "astropy-examples-and-tutorials",
+      "astropy-inputs-and-modeling",
+      "astropy-whatsnew",
+      "astropy-changes"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/astropy-api-and-scripting.md",
+      "skills/.evidence/astropy-getting-started.md",
+      "skills/.evidence/astropy-examples-and-tutorials.md",
+      "skills/.evidence/astropy-inputs-and-modeling.md",
+      "skills/.evidence/astropy-whatsnew.md",
+      "skills/.evidence/astropy-changes.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Most unit tests are distributed under astropy/**/tests; astropy/tests is the shared top-level test package.",
+      "Tutorial/example material is embedded in the docs tree rather than a top-level tutorials directory."
+    ],
+    "package_name": "astropy",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "astropy",
+      "cextern"
+    ],
+    "test_dirs": [
+      "astropy/tests",
+      "docs/changes/tests"
+    ],
+    "tutorial_dirs": [
+      "docs/nddata/examples",
+      "docs/wcs/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy",
+  "validation": {
+    "core_skills_checked": [
+      "astropy-api-and-scripting",
+      "astropy-getting-started",
+      "astropy-examples-and-tutorials",
+      "astropy-inputs-and-modeling",
+      "astropy-whatsnew",
+      "astropy-changes"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-whatsnew/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/astropy-astropy/skills/astropy-changes/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "astropy-index"
+    ],
+    "ok": false,
+    "skills_total": 20,
+    "source_links_total": 486,
+    "topic_skills": 19,
+    "warnings": []
+  }
+}

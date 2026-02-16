@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "astropy-api-and-scripting",
+    "astropy-getting-started",
+    "astropy-examples-and-tutorials",
+    "astropy-inputs-and-modeling",
+    "astropy-whatsnew",
+    "astropy-changes"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/astropy-api-and-scripting.md",
+    "skills/.evidence/astropy-getting-started.md",
+    "skills/.evidence/astropy-examples-and-tutorials.md",
+    "skills/.evidence/astropy-inputs-and-modeling.md",
+    "skills/.evidence/astropy-whatsnew.md",
+    "skills/.evidence/astropy-changes.md"
+  ]
+}
